@@ -6,10 +6,10 @@ import configureStore from './configureStore';
 
 const store = configureStore();
 
-const RNBoilerplate = () => (
+const App = () => (
   <Provider store={store}>
     <Router />
   </Provider>
 );
 
-AppRegistry.registerComponent('RNBoilerplate', () => RNBoilerplate);
+AppRegistry.registerComponent('App', () => App);

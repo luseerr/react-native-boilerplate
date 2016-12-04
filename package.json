@@ -2,6 +2,7 @@
   "name": "Expenser",
   "version": "0.10.0",
   "private": true,
+  "experimentalDecorators": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "ios-open": "open ios/*.xcodeproj",
